@@ -3,16 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Rapper Log</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 <h1>The place to log all your freestyles</h1>
+
 <img src="tmg-article_default_mobile.jpg" alt="">
 <section class="log">
   <h2>Where user reords lyrics</h2>
+  <div class="words" contenteditable>
+    </div>
 </section>
 <section class="submit">
 <h2>Where user logs lyrics to database</h2>
+<button type="button" name="button">Save your Lyrics</button>
 </section>
+<section class="record">
+  <h2>Record your session so you can listen back and see how your flow should be</h2>
+  <img id="micro" src="microphone.png" alt="microphone">
+  <audio id="player" controls></audio>
+  <a id="download">Download</a>
+<button id="stop">Stop</button>
+</section>
+
+<script src="js/main.js">
+
+</script>
   </body>
 </html>
